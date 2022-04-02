@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #FFEAA0;
+  height: 60px;
+}
+
+.h1 {
+  text-align: left;
+  margin-left: 0px;
+  font-family:sans-serif; 
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.menu{
+  position: fixed;
+}
+
+
+.header-nav {
+  background-color: #FFEAA0;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ 
+ nav {
+   margin-right: 5%;
+   color: #FAF3EA!important;
+
+ }
+ 
+ a {
+   color: #fff;
+  text-decoration: none!important;
+ }
+
+a:hover {
+  color: #f00;
+}
+
+
+/*   First block Start  */
+
+#first-block {
+  background-image: url("../images/first-back.jpg"); 
+  background-size: cover;
+  width: 100%;
+  height: 580px;
+  background-color:#FAF3EA;
+  margin-bottom: -18px;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.title-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: serif;
+  color: #444;
+  margin: auto;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+  margin: auto;
+}
+
+
+
+/*   First block End   */
+
+/*   Second block Start  */
+#second-block{
+  background-image: url("../images/second-back.jpg"); 
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-color:#FAF3EA;
+  margin-bottom: -18px;
+} 
+
+
+/*  Second block End  */
+
+/*  Third block Start  */
+#third-block{
+  background-image: url("../images/third-back.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-color:#FAF3EA;
+  margin-bottom: -18px;
+}
+
+
+
+
+
+/*  Third block End  */ 
+
+/*  Fourth block Start  */
+#fourth-block{
+  background-image: url("../images/fourth-back.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-color:#FAF3EA;
+  margin-bottom: -18px;
+}
+
+
+
+
+/*  Fourth block End  */
+
+/*  fifth block Start  */
+#fifth-block{
+  background-image: url("");
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-color:#FAF3EA;
+  margin-bottom: -18px;
+}
+
+/*  fourthth block End  */
+
+/*  fifth block Start  */
+#fifth-block{
+  background-image: url("../images/fifth-back.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 1050px;
+  background-color:#FAF3EA;
+}
+
+.TooZoo video{
+  text-align: right!important;
+  margin-top: 190px;
+  margin-left: 210px;
+}
+
+
+/*  fifth block End  */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 50px;
+  background-color: #FFEAA0;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+  
+
